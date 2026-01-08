@@ -12,3 +12,9 @@ variable "vm-Name" {
   type = string
   default = "jk-vm1"
 }
+
+
+variable "novm" {
+  type = number
+  description = "this is no of vm"
+}
